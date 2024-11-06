@@ -1,0 +1,141 @@
+body {
+    background-color: #252525;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Inter", serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #303030, #252525);
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+.logo h1 {
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-right: 30px;
+}
+
+.nav-list li {
+    z-index: 10;
+    margin-left: 50px;
+}
+
+.nav-list a {
+    font-family: "Inter", serif;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
+
+.coach {
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 100px;
+    line-height: 0; 
+    padding: 0; 
+}
+
+.title {
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-size: 120px;
+    margin-left: 150px;
+    line-height: 0; 
+    padding: 0; 
+}
+
+#profile {
+    letter-spacing: 1.1px;
+    color: #ffffff;
+    font-family: "Inter", serif;
+    margin-left: 150px;
+}
+
+#contact {
+    font-family: "Inter", serif;
+    margin: 70px;
+    margin-left: 150px;
+}
+
+#profile h5 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#profile p, #contact p {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.link {
+    color: #ffffff; 
+    text-decoration: underline; 
+}
+
+.link2 {
+    color: white;   
+    text-decoration: none; 
+}
+
+.link2:hover:hover {
+    text-decoration: underline;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+    margin-left: auto;
+    margin-right: 0;
+    position: absolute; 
+    right: 0; 
+    top: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.language-switch {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 5;
+}
+
+.language-switch button {
+    background-color: #303030;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.language-switch button:hover {
+    background-color: #505050;
+}
